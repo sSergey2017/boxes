@@ -1,0 +1,62 @@
+
+.rb-header-title {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+.rb-header-active {
+    display: flex;
+    align-items: flex-end;
+}
+
+.rb-header-buttons {
+    display: flex;
+    align-items: flex-start;
+    margin-left: 10px;
+    margin-right: 10px;  
+}
+
+.rb-btn-newgame {
+    margin-left: 10px;
+}
+
+.rb-header-timer {
+    margin-left: 10px;
+}
+
+.rb-header-position {
+    display: flex;
+    flex-direction: column;
+}
+
+.rb-game {
+    display: flex;
+}
+.rb-game-area {
+    background:#1E90FF;
+    width:655px;
+    height:555px;
+    border:2px solid #000;
+    margin-top:10px;
+    margin-left:10px;
+    margin-right:30px;
+}
+.rb-game-status {
+    width:200px;
+    height:555px;
+    border:2px solid #000;
+    margin-top:10px;
+    font-size:32px;
+    text-align:center;
+}
+
+.newBox {
+    width :50px;
+    height:50px ;
+    border: 2px solid white;
+    font-weight: normal;
+    outline: none;
+	float: left; 
+}
